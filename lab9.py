@@ -15,6 +15,7 @@ def menu():
             encoded_password = encode_password(password)
             print("Your password has been encoded and stored!")
             password_storage['encoded'] = encoded_password
+            password_storage['password'] = password
         elif option == "3":
             break
 
